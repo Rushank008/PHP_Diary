@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4CAF50;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #45a049;
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Diary Entries Styles */
+.entries-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Reduced gap between entries */
+    margin-top: 20px;
+}
+
+.entry {
+    background-color: white;
+    padding: 10px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry h2 {
+    color: #333;
+    margin-bottom: 8px; /* Reduced margin */
+    font-size: 18px; /* Reduced font size */
+}
+
+.entry-content {
+    color: #555;
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 15px; /* Reduced font size */
+    line-height: 1.4; /* Reduced line height */
+}
+
+.entry-date {
+    font-size: 13px; /* Reduced font size */
+    color: #777;
+    text-align: right;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Search Bar Styles */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}

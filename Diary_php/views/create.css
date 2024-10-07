@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.diary-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Adjust max width as needed */
+    width: 100%; /* Full width within max width */
+    margin: 20px auto; /* Center the form horizontally with some margin on top */
+    padding: 30px; /* Padding inside the form */
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.diary-form label {
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: bold;
+    color: #333; /* Dark color for readability */
+}
+
+.diary-form input[type="text"],
+.diary-form textarea {
+    padding: 12px; /* More padding inside fields */
+    margin-bottom: 20px; /* Space below fields */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for input */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.diary-form input[type="text"]:focus,
+.diary-form textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.diary-form textarea {
+    height: 200px; /* Fixed height for the textarea */
+    resize: none; /* Disable resizing */
+}
+
+.diary-form button {
+    padding: 12px; /* Padding for button */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.diary-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}

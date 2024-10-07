@@ -1,0 +1,59 @@
+/* General Form Styles */
+.edit-diary-form {
+    background-color: #f9f9f9; /* Soft background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form Group Style */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+.edit-diary-form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Input Field Styling */
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus, .form-textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+}
+
+/* Textarea Styling */
+.form-textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Submit Button Styling */
+.btn-submit {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

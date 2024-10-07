@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #d9e4f5); /* Soft gradient background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    width: 400px; /* Fixed width for the form */
+    padding: 30px; /* Increased padding for spaciousness */
+    background: #ffffff; /* White background for the form */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+h2 {
+    text-align: center;
+    color: transparent; /* Make the text color transparent */
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 20px; /* More space below the heading */
+    background: linear-gradient(90deg, #ff6f61, #de4b8c); /* Gradient background */
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* For Safari compatibility */
+}
+
+
+.signup-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+label {
+    margin-bottom: 8px; /* Space between label and input */
+    color: #555; /* Color for labels */
+    font-weight: 600; /* Bold labels for emphasis */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px; /* Padding for comfort */
+    margin-bottom: 20px; /* Space between input fields */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 6px; /* More rounded corners */
+    font-size: 16px; /* Larger font size */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #ff6f61; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Soft shadow on focus */
+}
+
+button {
+    padding: 12px; /* Padding for button */
+    background-color: #5cb85c; /* Bootstrap success color */
+    color: white; /* White text on button */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.error-message {
+    text-align: center; /* Center align error messages */
+    margin-top: 10px; /* Space above error messages */
+    color: #e74c3c; /* Red color for error messages */
+    font-weight: 600; /* Bold error messages */
+}
+
+.info-text {
+    text-align: center; /* Center align info text */
+    margin-top: 15px; /* Space above info text */
+    color: #666; /* Lighter color for info text */
+}
+
+.info-text a {
+    color: #5cb85c; /* Green link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.info-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
